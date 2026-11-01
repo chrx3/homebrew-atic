@@ -4,7 +4,7 @@ cask "atic" do
 
   url "https://github.com/chrx3/atic/releases/download/v#{version}/Atic_#{version}_universal.dmg"
   name "Atic"
-  desc "Local-first desktop toolbox in a floating pill: agents, meetings, dictation, captures"
+  desc "Local-first desktop toolbox: agents, meetings, dictation and captures"
   homepage "https://github.com/chrx3/atic"
 
   livecheck do
