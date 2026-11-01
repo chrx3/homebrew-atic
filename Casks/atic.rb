@@ -1,10 +1,10 @@
 cask "atic" do
-  version "0.4.39"
-  sha256 "4af80d9a73d3de3098c7fa94daf73bdfc7e32e5800f93ed50f8707bd34bd7a00"
+  version "0.5.5"
+  sha256 "71f90d6a0751e00d8c950ebcf77f49a74e25b9e741bda4e4c0140fbc50072488"
 
   url "https://github.com/chrx3/atic/releases/download/v#{version}/Atic_#{version}_universal.dmg"
   name "Atic"
-  desc "Local-first desktop assistant: dictation, recording, captures and clipboard"
+  desc "Local-first desktop toolbox: agents, meetings, dictation and captures"
   homepage "https://github.com/chrx3/atic"
 
   livecheck do
@@ -12,9 +12,9 @@ cask "atic" do
     strategy :github_latest
   end
 
-  # Atic se actualiza sola (updater de Tauri): brew no la pisa en `upgrade`.
+  # Atic se actualiza sola (actualizador integrado): brew no la pisa en `upgrade`.
   auto_updates true
-  depends_on macos: :big_sur
+  depends_on macos: :ventura
 
   app "Atic.app"
 
