@@ -1,6 +1,6 @@
 cask "atic" do
-  version "0.5.5"
-  sha256 "71f90d6a0751e00d8c950ebcf77f49a74e25b9e741bda4e4c0140fbc50072488"
+  version "0.5.6"
+  sha256 "daf1c93c9eb4b79d5b338a2e784e59f926d6be54cdaecb217a006207fe07269d"
 
   url "https://github.com/chrx3/atic/releases/download/v#{version}/Atic_#{version}_universal.dmg"
   name "Atic"
